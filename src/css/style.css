@@ -614,12 +614,14 @@ a {
       border-radius: 10px !important; }
   .footer-section .sofa-img {
     position: absolute;
+    width: 250px;
     top: -100px;
     z-index: 1;
     right: 0; }
     @media (max-width: 768px) {
       .footer-section .sofa-img {
-          top: -200px;
+          top: -160px;
+          width: 190px;
       }
   }
     .footer-section .sofa-img img {
